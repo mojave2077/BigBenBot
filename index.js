@@ -33,7 +33,7 @@ const task = cron.schedule('0 0 */1 * * *', async () => {
 		.setColor('#FFD700')
 		.setTitle(`The time is now ${hour}:00 ${amPm} GMT${timezoneOffsetString}`)
 		
-		textChannel.send(messageEmbed);
+		//textChannel.send(messageEmbed);
 	}
 
 	// check if VC defined in config is empty
